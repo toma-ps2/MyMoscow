@@ -1,0 +1,118 @@
+.bg-img {
+    background: rgba(0, 0, 0, 0.503) url('../photos/images/top2.jpg') center 25% / cover no-repeat;
+    background-blend-mode: darken;
+    height: 450px;
+}
+
+.bg {
+    color: white;
+    position: relative;
+}
+.about{
+    font-size: 18px;
+    font-weight: 400;
+   text-align: justify;
+   padding: 10px;
+}
+.people{
+    display: flex;
+    
+}
+.picture6{
+    background: url(../photos/images/man.jpg) 80% 50% no-repeat;
+    width: 40%;
+    
+}
+.picture7{
+    background: url(../photos/images/woman.jpg) 70% 25% no-repeat;
+    width: 40%;
+}
+
+.people__contact{
+    background-color: var(--MyColor-o);
+    padding: 10px;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.contacts_section{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.contacts__main{
+    width: 50%;
+    box-sizing: border-box;
+}
+.contacts__main img{
+    width: 50px;
+}
+.contacts__form{
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 50%;
+    
+}
+.contacts__form h2{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.contact1 img,
+.contact1 a,
+.contact1 p{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.map{
+    border-top: 4px solid var(--MyColor-o);
+}
+
+@media screen and (max-width:850px) {
+    .people{
+        flex-direction: column;
+    }
+    .picture6,
+    .picture7{
+        width: 100%;
+        height: 175px;
+    }
+    .people__contact{
+        width: 100%;
+    }
+}
+@media screen and (max-width:885px) {
+    .form__body input,
+    .form__body textarea{
+        width: 200px;
+    }
+    div .btn3{
+        width: 200px;
+    }
+}
+@media screen and (max-width:625px) {
+    .contacts_section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact1 img,
+    .contact1 a,
+    .contact1 p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:470px) {
+    .form__body input,
+    .form__body textarea{
+        width: 150px;
+    }
+    div .btn3{
+        width: 150px;
+    }
+}

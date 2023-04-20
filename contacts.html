@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/style-contacts.css">    
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap">
+    <script defer src="js/slider.js"></script>
+    <script defer src="js/menu.js"></script>
+</head>
+<body>
+   
+    <header class="wrapper">
+        <div class="bg bg-img">
+            <img class="logo" src="icons/spasskaya-tower.png" alt="tower">
+            <h2 class="title">My Moscow</h2>
+            <div class="menu">
+                <a href="/index.html">Главная</a>
+                <a href="/trips.html">Наши услуги</a>
+                <a href="#">О Компании</a>
+                <a href="#">Контакты</a>
+                <a href="#">Отзывы</a>
+            </div>
+            <div class="menu__mobile">
+                <a href="#menu">
+                    <i class="fa fa-2x fa-bars"></i>
+                </a>
+                <a href="#">Главная</a>
+                <a href="#">Наши услуги</a>
+                <a href="#">О Компании</a>
+                <a href="#">Контакты</a>
+                <a href="#">Отзывы</a>
+            </div>
+
+            <div class="slider">
+                <div class="slider__line">
+                    <!-- <img src="photos/top.jpg" alt="" class="slider__item"> -->
+                    <img src="photos/images/top2.jpg" alt="" class="slider__item"> 
+                    <img src="photos/images/top1.jpg" alt="" class="slider__item"> 
+                </div>
+    
+               <div class="slider__panel">
+                <i class="fa fa-2x fa-arrow-circle-left"></i>
+                <i class="fa fa-2x fa-arrow-circle-right"></i>
+               </div>
+               <div class="slider__dotted">
+                <div class="dotted dotted_active" data-id="1"></div>
+                <div class="dotted" data-id="2"></div>
+                <div class="dotted" data-id="3"></div>
+               </div>
+            </div>
+            <div>
+                <h1 class="title1">MyMoscow</h1> 
+                <div class="text"> агенство интересных маршрутов <br>-Контакты-</div>
+                <div class="btn">ПОДРОБНЕЕ О НАС</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="wrapper">
+            <h1 class="title2">Контакты</h1>
+        </section>
+        <section class="wrapper">
+                <div class="about">
+                    <p>Мы - команда тех, кто любит историю и любит Москву.</p>
+                    <p>Москва - это не только место по "заколачиванию денег" и "взращиванию карьеры", а еще и бесконечно красивые памятники природы, парки, заповедники. Активный отдых в Москве и Подмосковье - это отличная возможность вырваться из душного мегаполиса куда-нибудь в "дебри", навстречу приключениям. К счастью, не все Подмосковье еще "облагорожено" асфальтными дорожками и высоченными коттеджными заборами. Еще встречаются места, настолько глухие и далекие, что, очутившись там, кажется, что ты - первый человек, ступивший на эту землю.</p>
+                    <p>Там, где не проедет автомобилист и даже велосипедист, найдет эту лазейку и откроет для себя красоты 100% бездорожья турист, проводящий свой активный отдых в Подмосковье.</p>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper">
+            <div class="people">
+                <div class="picture6"></div>
+                <div class="people__contact">
+                    <h1>Александр Рыбаков</h1>
+                    <p>директор</p>
+                    <p>По всем вопросам пишите на почту:</p>
+                    <a href="#">rybakov@mymoscow.ru</a>
+                </div>
+                <div class="picture7"></div>
+                <div class="people__contact">
+                    <h1>Елена Белкина</h1>
+                    <p>руководитель корпоративного отдела</p>
+                    <p>По вопросам корпоративных экскурсий:</p>
+                    <a href="#">belkina@mymoscow.ru</a>
+                 </div>
+            </div>
+        </section>
+       
+        <section class="wrapper">
+            <div class="contacts_section">
+                <div class="contacts__main">
+                    <div class="contact1">
+                        <img src="icons/placeholder.png" alt="map">
+                        <p>Москва, Большая Спасская 12</p>
+                    </div>
+                    <div class="contact1">
+                        <img src="icons/mail.png" alt="mail">
+                        <p>Email:</p>
+                        <a href="mailto:moscow@moscow.ru">moscow@moscow.ru</a>
+                    </div>
+                    <div class="contact1">
+                        <img src="icons/telephone.png" alt="phone">
+                        <p>Телефон:</p>
+                        <a href="tel:8(495)626-46-00">8(495)626-46-00</a>
+                    </div>
+                </div>
+                <div class="contacts__form ">
+                     <h2>Напишите нам</h2>
+                    <div class="form__body">
+                    <input type="text" placeholder="ФИО">
+                    <input type="email" placeholder="Email">
+
+                    <textarea placeholder="Ваше сообщение"></textarea>
+                    <div class="btn3">отправить вопрос</div>
+                </div>    
+            </div>
+        </section>
+        <section class="wrapper">
+            <div class="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa24f2b1f3b80d1ddbee8390629c777976d14e3f53cad00ad8909dd808658de27&amp;width=100%25&amp;height=471&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </section>
+    </main>
+    <footer class="wrapper background">
+        <div class="footer">
+            <div class="footer__main">
+                <img class="footer__logo" src="icons/spasskaya-tower.png" alt="tower">
+                <h2 class="title__logo">MyMoscow</h2>
+                <div>
+                <p>Мы приглашаем тебя на самые разные экскурсии по Москве. Автобусные и пешеходные, на целый день или на несколько часов, на свежем воздухе или с заходом в здания - у нас в ассортименте более 20 авторских экскурсий по Москве, выбирай и узнавай Москву вместе с нами!</p>
+                </div>
+            </div>
+            <div class="footer__contacts">
+                <h2>Контакты</h2>
+                <div class="contact">
+                    <img src="icons/placeholder.png" alt="map">
+                    <p>Москва, Большая Спасская 12</p>
+                </div>
+                <div class="contact">
+                    <img src="icons/mail.png" alt="mail">
+                    <a href="mailto:moscow@moscow.ru">moscow@moscow.ru</a>
+                </div>
+                <div class="contact">
+                    <img src="icons/telephone.png" alt="phone">
+                    <a href="tel:8(495)626-46-00">8(495)626-46-00</a>
+                </div>
+            </div>
+            <div class="footer__news">
+                <h2>Последние новости</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, reprehenderit perspiciatis placeat soluta corporis odio earum voluptate consequatur, dolorem quibusdam porro similique neque, excepturi architecto quae repellat et eligendi magni?</p>
+                <a href="date:05.03.2018">5 марта 2018</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident necessitatibus delectus repudiandae quis atque, maxime deleniti, libero, rem porro deserunt sequi. Fugiat explicabo nemo inventore iste, nesciunt itaque tenetur?</p>
+                <a href="date:12.12.2017">12 декабря 2017</a>
+            </div>
+        </div>
+        </div>
+
+
+        <div class=" background2">
+            <div class="footer2">
+                <div class="footer2__copy">
+                    <p>@2018Copyright. Все права защищены</p>
+                </div>
+                <div class="footer2__des">
+                    <p>Design by Nordic IT Shcool</p>
+                </div>
+                <div class="footer2__social">
+                    <img src="photos/social/vk.png" alt="VK">
+                    <img src="photos/social/facebook.png" alt="FB">
+                    <img src="photos/social/instagram.png" alt="IN">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
